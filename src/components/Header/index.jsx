@@ -14,25 +14,25 @@ import DropdownMenu from '../DropdownMenu';
 
 const Header = () => {
 
-    // const Show = () =>{
-    //     const navListMenu = document.querySelector(".navbar");
+    const Show = () =>{
+        const navListMenu = document.querySelector(".navbar");
         
-    //    if (navListMenu.style.display == "flex")
-    //    {
-    //       navListMenu.style.display = "none";
+       if (navListMenu.style.display == "flex")
+       {
+          navListMenu.style.display = "none";
          
-    //    } else {
-    //      navListMenu.style.display = "flex";
+       } else {
+         navListMenu.style.display = "flex";
 
-    //   }
+      }
 
-    // }
+    }
  
 
     return (
         <C.Container>
                 <nav className="menu">
-                    <a  ><IoMenu  className="mobile-menu"/></a>
+                    <a onClick={Show} ><IoMenu  className="mobile-menu"/></a>
                     <div className="divlogo">
                          <Link to="/" className="logo"> <img src={logo}></img></Link>
                     </div>
@@ -49,7 +49,7 @@ const Header = () => {
               
           {/*  */}
                 </nav> 
-                <DropdownMenu />
+                <DropdownMenu className="navbar active"/>
         </C.Container>
          
                 
