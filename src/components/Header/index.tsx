@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom';
 import * as C from './styles';
 import logo from '../../assets/logo.png';
 import { IoMenu } from "react-icons/io5";
-import DropdownMenu from '../../components/DropdownMenu';
+import DropdownMenu from '../DropdownMenu';
 
 
 
