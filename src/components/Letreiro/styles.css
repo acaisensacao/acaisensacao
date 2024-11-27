@@ -1,0 +1,66 @@
+
+
+    .letreiro{
+    display: flex;
+    width:110vw;
+    height:6vh;
+    background-color: #2c003b;
+    z-index: 2;
+    }
+    
+
+    .div-letreiro{
+    display: flex;
+    width: 100vw;
+    height:7vh;
+    justify-content: space-around;
+    align-items: center;
+    animation: letreiro 20s linear infinite;
+    color:white;
+    font-size: 1.6em;
+    z-index: 4;
+    letter-spacing: 4px;
+    
+    }
+
+    .letreiro-fixo{
+    display: none;
+    width: 25vw;
+    height: 4.5vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5em;
+    position: absolute;
+    z-index: 6;
+    left: 75vw;
+    top: 63px;
+    background-color: #2c003b;
+
+    }
+
+    @keyframes letreiro{
+    from {
+        transform: translateX(-60%);
+    }
+
+    to {
+        transform: translateX(80%);
+    }
+    }
+
+
+     @media (max-width:600px){
+     
+    .div-letreiro{
+    display: flex;
+    width: 150vw;
+    height:7vh;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    animation: letreiro 13s linear infinite;
+   
+    }
+
+
+     }

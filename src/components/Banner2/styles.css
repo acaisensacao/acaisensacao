@@ -1,0 +1,82 @@
+   
+    .banner2{
+    width: 100vw;
+    height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+     box-shadow: 1px 1px 10px 10px #2c003b;
+    }
+     
+   
+   
+
+    .banner{
+    width:100%;
+    height: 100%;
+   
+    
+    }
+
+
+    .texto{
+    position:absolute;
+    right:100px;
+    width:38vw;
+    height: 92vh;
+    font-size:2em;
+    text-align:start;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-around;
+     align-items: start;
+     color:white;
+     letter-spacing: 1px;
+
+    }
+
+    .texto h2{
+    color:#2c003b;
+    font-size:2.1em;
+    opacity:0.7;
+    letter-spacing: 1.3px;
+    }
+
+
+     @media (max-width:600px){
+
+        .banner2{
+        height: 70vh;
+        z-index:8;
+        }
+
+        .banner{
+            width:150vw;
+            margin-left:40vw;
+            height: 100%;
+            
+         }
+
+    .texto{
+        position:absolute;
+        right:30px;
+        width:50vw;
+        height: 40vh;
+        font-size:1.42em;
+        top:650px;
+
+    }
+
+    .texto h2{
+        color:#2c003b;
+        font-size:2.1em;
+        opacity:0.7;
+        letter-spacing: 1.3px;
+        margin-bottom:20px;
+    }
+
+    .texto2{
+    display:none;}
+     
+     }
+

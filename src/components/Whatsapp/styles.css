@@ -1,0 +1,37 @@
+
+.icon-whatsapp{
+  width:60px;
+  height:60px;
+  cursor:pointer;
+  position:fixed;
+  bottom:25px;
+  right:30px;
+  transition:0.5s;
+  z-index:8;
+  }
+
+  .icon-whatsapp:hover{
+  width:64px;
+  height:64px;
+  }
+
+
+
+   @media (max-width:600px){
+
+  .icon-whatsapp{
+    width:65px;
+    height:65px;
+    right:25px;
+   }
+
+    .icon-whatsapp:hover{
+  width:70px;
+  height:70px;
+  bottom:15px;
+
+  }
+
+  }
+
+

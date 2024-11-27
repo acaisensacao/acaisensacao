@@ -1,0 +1,50 @@
+
+ 
+
+
+  .adicionais{
+    display: flex;
+  flex-direction: column;
+  justify-content: start;
+  height: auto;
+  width: 100%;
+  background-color: white;
+  padding-top: 2vh;
+  font-size: 1em;
+  
+
+}
+
+    .info-adicionais-title
+  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content:center;
+  margin-bottom: 5px;
+  width: 100%;
+  padding-top: 2vh;
+  padding-left:20px;
+  padding-right:20px;
+  
+}
+
+.button-adicionais{
+  background-color: rgb(107, 27, 111);
+  color:white;
+  border-radius:3px;
+  height: 5vh;
+  width: 10vw;
+  font-size:1.8em;
+  text-align:center;
+  display:flex;
+  padding-top:4px;
+  justify-content:space-around;
+  
+}
+
+.seta{
+font-size:1.3em;
+
+}
+
