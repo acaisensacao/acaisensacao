@@ -10,7 +10,7 @@ export default function AppRoutes() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route path='/cardapio' element={<Cardapio/>} />
+        <Route path='/cardapio' element={<Cardapio/>} />git
         <Route path='/contatos' element={<ContatosLocalizacao/>} />
         <Route path='/localizacao' element={<ContatosLocalizacao/>} />
         <Route path='*' element={<Home/>} />
