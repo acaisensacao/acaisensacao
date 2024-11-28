@@ -1,7 +1,7 @@
 import './styles.css'
 import Header from '../../components/Header/index'
 // import DropdownMenu from '../../components/DropdownMenu'
-import Letreiro from '../../components/Letreiro/index';
+import Letreiro from '../../components/Letreiro';
 import Banner1 from '../../components/Banner1/index';
 import Banner2 from '../../components/Banner2/index';
 import Footer from '../../components/Footer/index';

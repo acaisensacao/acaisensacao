@@ -13,7 +13,7 @@ export default function AppRoutes() {
         <Route path='/cardapio' element={<Cardapio/>} />
         <Route path='/contatos' element={<ContatosLocalizacao/>} />
         <Route path='/localizacao' element={<ContatosLocalizacao/>} />
-        <Route path='*' element={<h1>Not Found</h1>} />
+        <Route path='*' element={<Home/>} />
       </Routes>
     </BrowserRouter>
    
