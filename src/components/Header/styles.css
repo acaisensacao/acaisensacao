@@ -1,6 +1,5 @@
 .header{
 position:static;
-z-index:8;
 width: 100vw;
 display: flex;
 flex-direction:row;
@@ -38,7 +37,7 @@ cursor: pointer;
 
 
 .div-list{
-width: auto ;
+
 width: 45vw;
 
 }
@@ -132,8 +131,16 @@ color:#fff;
 
 @media (max-width:600px){
 
-.item-menu{
-display:none;
+  .menu{
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+   
+
+  }
+
+#item-menu{
+  display:none;
 }
 
  .mobile-menu
@@ -147,6 +154,27 @@ display:none;
 }
 
 
+.item-menu{
+  font-size:1.6em;
+  margin-left: 15px;
+  font-weight: bold;
+  
+  }
+  
 
+  .logo img
+  {
+  width: 100px;
+  height: 65px;
+  cursor: pointer;
+  
+  
+  }
 
+  .div-list{
+    
+    width: 70vw;
+    
+    }
+   
 }
