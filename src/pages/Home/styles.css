@@ -3,9 +3,15 @@
     .div-home{
     display: flex;
     flex-direction: column;
+    justify-content:start;
+    align-items: center;
     
-    
-    
+    }
+
+    .home{
+        height: auto;
+        width: 100vw;
+
     }
 
 

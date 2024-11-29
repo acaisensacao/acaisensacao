@@ -1,5 +1,5 @@
 .header{
-position:absolute;
+position:static;
 z-index:8;
 width: 100vw;
 display: flex;
@@ -148,10 +148,5 @@ display:none;
 
 
 
-
-}
-
-   .navbar {
-display:none;
 
 }

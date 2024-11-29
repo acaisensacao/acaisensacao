@@ -1,7 +1,7 @@
 import './styles.css'
 import Header from '../../components/Header/index'
 // import DropdownMenu from '../../components/DropdownMenu'
-import Letreiro from '../../components/Letreiro';
+import Letreiro from '../../components/Letreiro/index';
 import Banner1 from '../../components/Banner1/index';
 import Banner2 from '../../components/Banner2/index';
 import Footer from '../../components/Footer/index';
@@ -17,7 +17,6 @@ function Home(){
             <div className='div-home'>
                 <Header/>
                 <Letreiro/>
-               {/* <DropdownMenu/> */}
                 <Banner1/>
                 <Banner2 />
                 <Footer id="footer" />

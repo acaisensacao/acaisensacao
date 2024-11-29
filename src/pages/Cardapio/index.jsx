@@ -84,7 +84,7 @@ export default function Cardapio() {
 
                   <div className="acompanhamentos-2">
                       <div className="acompanhamentos-2-1">
-                        <h2> Acompanhamentos  ( A vontade! ) </h2>
+                        <h2> Acompanhamentos <br></br> ( A vontade! ) </h2>
                         <ul className="list">
                         <li className="list-item">Granulado</li>
                         <li className="list-item">Granola</li>

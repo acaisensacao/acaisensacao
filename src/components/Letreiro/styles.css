@@ -5,7 +5,7 @@
     width:110vw;
     height:6vh;
     background-color: #2c003b;
-    z-index: 2;
+    
     }
     
 
@@ -52,10 +52,14 @@
 
      @media (max-width:600px){
      
+
+    .letreiro{
+        height:5vh;
+    }
     .div-letreiro{
     display: flex;
     width: 150vw;
-    height:7vh;
+    height:5vh;
     font-size: 1.2em;
     letter-spacing: 2px;
     animation: letreiro 13s linear infinite;

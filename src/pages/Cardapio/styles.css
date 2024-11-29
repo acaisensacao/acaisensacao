@@ -253,7 +253,7 @@ margin-right:30px;
 
   @media (max-width:600px){
 
-
+  
   
 .acompanhamentos
 {
@@ -283,7 +283,7 @@ margin-top:15px;
 
 .fundo{
  position:relative;
- height:250vh;
+ height:230vh;
  width:100vw;
  
  
@@ -297,12 +297,29 @@ margin-left:40vw;
 
 .img-copos
 {
-  width: 85vw;
+  width: 90vw;
+  margin-top: 32px;
+  font-size: 0.9em;
+ 
+}
+
+.img-copos:hover
+{
+  width: 88vw;
+  height: 8vh;
+  
+}
+
+.copos{
+  display: flex;
+  
 }
 
 .img-copos-preco
 {
   width: 22vw;
+  margin-left: 10px;
+  
 }
 
 .button-pedido
@@ -311,6 +328,39 @@ margin-left:40vw;
 
   width: 55vw;
   height: 9vh;
+
+  
+}
+.logo-cardapio
+{
+  width: 280px;
+  height: 155px;
+  margin-top: 20px;
+  
+  
+}
+
+.adicional-text{
+
+  font-size:1.5em;
+  margin-left:33vw;
+
+  
+  }
+
+
+  .list{
+
+    margin-top:10px;
+    margin-bottom:7px;
+    text-align:start;
+    font-size:1.4em;
+    }
+
+    .acompanhamentos
+{
+  font-size:1.6em;
+ 
 
   
 }

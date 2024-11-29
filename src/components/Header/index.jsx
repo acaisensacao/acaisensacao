@@ -2,15 +2,16 @@ import React from 'react'
 import './styles.css'
 import {Link} from 'react-router-dom';
 import logo from '../../assets/logo.png';
-// import { IoMenu } from "react-icons/io5";
+import { IoMenu } from "react-icons/io5";
 import DropdownMenu from '../DropdownMenu/index';
 
 
 function Header() {
-  return (
+
+return (
     <div className='header'>
          <nav className="menu">
-                    <a  ></a>
+                    <a onClick={showDrop} className='mobile-menu' > <IoMenu  /> </a>
                     <div className="divlogo">
                          <Link to="/" className="logo"> <img src={logo}></img></Link>
                     </div>
@@ -26,7 +27,11 @@ function Header() {
               
         
                 </nav> 
+
                 <DropdownMenu/>
+               
+            
+                
     </div>
   )
 }

@@ -13,7 +13,8 @@ function Contatos(){
         <div className='contatos'>
             <div className='div-contatos'>
                 <Header/>
-                <Footer/>
+                <div className='espaco'></div>
+                <Footer className="contatos-localizacao" />
                 <Whatsapp/>
 
                 

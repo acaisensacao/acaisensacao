@@ -7,10 +7,10 @@ function Banner2 () {
   return (
     <div className='banner2' >
        
-        <img src={banner2} className="banner" ></img>
+        <img src={banner2} className="banner2-2" ></img>
         <div className='texto'>
           <h2>Sobre Nós</h2>
-          <p>Somos uma açaiteria dedicada a proporcionar a melhor experiência aos nossos clientes. <br></br>
+          <p>Somos um DELIVERY de açaí dedicado a proporcionar a melhor experiência aos nossos clientes. <br></br>
             Aqui, cada copo é feito com capricho e atenção aos detalhes, utilizando apenas ingredientes frescos e de alta qualidade. <br></br>
             Acreditamos que a combinação de sabor e nutrição é fundamental, e por isso buscamos sempre novas opções e combinações criativas.<br></br>
             Na nossa açaiteria, o açaí é mais do que um simples produto; é uma paixão. <br></br>Selecionamos as melhores frutas, 

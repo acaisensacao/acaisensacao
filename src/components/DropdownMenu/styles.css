@@ -2,7 +2,8 @@
     
 
     .navbar{
-    left: 0;
+        display: none;
+    position: absolute;
     background-color: #ffd427;
     overflow-x: hidden;
     transition: 0.5s;
@@ -11,24 +12,15 @@
     text-align: left;
     transition: all 1s;
     width: 65vw;
-    top: 8vh;
-    height:100vh;
+    top: 9vh;
+    z-index:10;
+    left: 0;
+
+    
  
 }
 
-    .navbar.active{
-    left: 0;
-    background-color: #ffd427;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 40px;
-    height: 100vh;
-    text-align: left;
-    transition: all 1s;
-    width: 65vw;
-    top: 8vh;
-    height:100vh;
-    }
+
     
    
    
