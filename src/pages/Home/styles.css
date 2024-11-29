@@ -9,6 +9,7 @@
     }
 
     .home{
+        overflow-x: hidden;
         height: auto;
         width: 100vw;
 

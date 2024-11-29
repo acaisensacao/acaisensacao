@@ -24,6 +24,10 @@
 }
 
 @media (max-width:600px){
+
+    .contatos{
+        overflow-x: hidden;
+    }
     .espaco{
         height: 15px;
     }

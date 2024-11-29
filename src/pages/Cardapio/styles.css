@@ -253,7 +253,9 @@ margin-right:30px;
 
   @media (max-width:600px){
 
-  
+  .cardapio{
+    overflow-x: hidden;
+  }
   
 .acompanhamentos
 {
