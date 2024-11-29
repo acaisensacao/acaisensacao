@@ -11,7 +11,8 @@ function Header() {
 return (
     <div className='header'>
          <nav className="menu">
-                    <a onClick={showDrop} className='mobile-menu' > <IoMenu  /> </a>
+                    {/* <a onClick={showDrop} className='mobile-menu' > <IoMenu  /> </a> */}
+                    <a className='mobile-menu' > <IoMenu  /> </a>
                     <div className="divlogo">
                          <Link to="/" className="logo"> <img src={logo}></img></Link>
                     </div>
