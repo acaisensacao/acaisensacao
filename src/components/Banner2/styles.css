@@ -46,7 +46,7 @@
      @media (max-width:600px){
 
         .banner2{
-        height: 80vh;
+        height: 70vh;
         z-index:8;
         }
 
@@ -63,7 +63,7 @@
         width:55vw;
         height: 40vh;
         font-size:1.42em;
-        top:580px;
+        top:590px;
 
     }
 
