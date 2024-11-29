@@ -23,6 +23,7 @@
     width:65px;
     height:65px;
     right:10px;
+    z-index: 20;
    }
 
     .icon-whatsapp:hover{
