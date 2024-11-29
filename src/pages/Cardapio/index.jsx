@@ -112,7 +112,7 @@ export default function Cardapio() {
       
            
        </div>
-       <a href="/"><button className="button-pedido"> Fazer Pedido</button></a>
+       <a href="https://api.whatsapp.com/send?phone=5574988519565&text=Vim%20pelo%20Site!%20Me%20encaminha%20o%20card%C3%A1pio,%20por%20favor!"><button className="button-pedido"> Fazer Pedido</button></a>
        </div>
        <Whatsapp/>
 
