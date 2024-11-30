@@ -285,7 +285,7 @@ margin-top:15px;
 
 .fundo{
  position:relative;
- height:248vh;
+ height:250vh;
  width:100vw;
  
  
@@ -293,15 +293,15 @@ margin-top:15px;
 
 .adicional-text{
   
-font-size:1.3em;
-margin-left:40vw;
+font-size:1.2em;
+margin-left:35vw;
 }
 
 .img-copos
 {
   width: 90vw;
   margin-top: 40px;
-  font-size: 0.9em;
+  font-size: 0.8em;
   height: 8vh;
  
 }
@@ -345,7 +345,7 @@ margin-left:40vw;
 
 .adicional-text{
 
-  font-size:1.5em;
+  font-size:1.4em;
   margin-left:33vw;
 
   
@@ -357,12 +357,12 @@ margin-left:40vw;
     margin-top:10px;
     margin-bottom:7px;
     text-align:start;
-    font-size:1.4em;
+    font-size:1.3em;
     }
 
     .acompanhamentos
 {
-  font-size:1.6em;
+  font-size:1.5em;
  
 
   
